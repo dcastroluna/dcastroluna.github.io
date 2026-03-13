@@ -1,10 +1,8 @@
-
-<!DOCTYPE html>
 <html lang="ca">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Web de Didac</title>
+  <title>Web de Dídac</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
   <style>
@@ -68,7 +66,7 @@
       <!-- 5. Logo i text -->
       <a class="navbar-brand d-flex align-items-center" href="#">
         <img src="logo.png" alt="Logo" class="logo rounded-circle me-2">
-        <span class="fw-bold">Web Didac</span>
+        <span class="fw-bold">Web de Dídac</span>
       </a>
 
       <!-- Botó menú mòbil -->
@@ -82,23 +80,25 @@
           <!-- Projecte 1 -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="proj1Dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <i class="fa-solid fa-diagram-project me-1"></i> Projecte Cerca IA vs Google Acadèmic
+              <i class="fa-solid fa-diagram-project me-1"></i> Projectes de recerca
             </a>
             <ul class="dropdown-menu" aria-labelledby="proj1Dropdown">
-              <li><a class="dropdown-item" href="https://dcastroluna.github.io/cerca/"><i class="fa-solid fa-seedling me-1"></i>Comparem cireres</a></li>
-              <li><a class="dropdown-item" href="https://dcastroluna.github.io/contaminacio/"><i class="fa-solid fa-head-side-mask me-1"></i> Contaminació i salut respiratòria a Viladecans</a></li>
+              <li><a class="dropdown-item" href="https://jjimenez-create.github.io/cerca"><i class="fa-solid fa-seedling me-1"></i> Recerca de la mandarina</a></li>
+              <li><a class="dropdown-item" href="https://jjimenez-create.github.io/contaminacio"><i class="fa-solid fa-head-side-mask me-1"></i> Contaminació i salut respiratòria a Viladecans</a></li>
             </ul>
           </li>
           <!-- Projecte 2 -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="proj2Dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <i class="fa-solid fa-folder-open me-1"></i> 22 dies en 22 peus
+              <i class="fa-solid fa-folder-open me-1"></i> Projecte: 22 dies 22 peus
             </a>
             <ul class="dropdown-menu" aria-labelledby="proj2Dropdown">
-              <li><a class="dropdown-item" href="https://dcastroluna.github.io/introduccio/"><i class="fa-solid fa-file-lines me-1"></i> Introducció al projecte</a></li>
-              <li><a class="dropdown-item" href="https://dcastroluna.github.io/vector/"><i class="fa-solid fa-compass me-1"></i> Calculem rumbs amb vectors</a></li>
-            <li><a class="dropdown-item" href="https://https://dcastroluna.github.io/distancies/"><i class="fa-solid fa-arrows-left-right-to-line me-1"></i> Calculem distàncies amb GPS</a></li>
+              <li><a class="dropdown-item" href="https://jjimenez-create.github.io/introduccio"><i class="fa-solid fa-file-lines me-1"></i> Introducció del projecte</a></li>
+              <li><a class="dropdown-item" href="https://jjimenez-create.github.io/vectors"><i class="fa-regular fa-compass me-1"></i> Calculem rumbs</a></li>
+               <li><a class="dropdown-item" href="https://jjimenez-create.github.io/distancies"><i class="fa-solid fa-arrows-left-right-to-line me-1"></i> Calculem distàncies</a></li>
+            
             </ul>
+    
           </li>
         </ul>
         <!-- Botó mode clar/fosc -->
@@ -109,24 +109,159 @@
 
   <!-- Contingut -->
   <main class="container py-5">
-    <h1>Air pollution, meteorological conditions and respiratory infections in Baix Llobregat. A 14-year spatiotemporal analysis.</h1>
-    <p>The objective of this research project are:</p>
+   <h1>Air pollution, meteorological conditions and respiratory infections in Baix Llobregat. A 14-year spatiotemporal analysis</h1>
+ <p>  The objective of this research project are: </p>
     <ul>
       <li>
-        Dídac & Joaquín are studying all data from Viladecans that is a city located in Baix Llobregat country.
-        In this country we are using data from<a href="https://mediambient.gencat.cat/es/05_ambits_dactuacio/atmosfera/qualitat_de_laire/avaluacio/xarxa_de_vigilancia_i_previsio_de_la_contaminacio_atmosferica_xvpca/"> Air Pollution Prevention and Monitoring Network (XPVCA in catalan) <</a>
-        corresponding to hourly data of air pollutants from year 2008 to 2025. Data included: nitrogen oxide (NO), nitrogen oxide (NO<sub>2</sub>), nitrogen oxides (NO<sub>X</sub>), ozone (0<sub>3</sub>), sulphur dioxide (SO<sub>2</sub>)
+        Dídac & Joaquín are studyng all data from Viladecans that is a city located in Baix Llobregat county.
+        In this county we are using data from <a href="https://mediambient.gencat.cat/ca/05_ambits_dactuacio/atmosfera/qualitat_de_laire/avaluacio/xarxa_de_vigilancia_i_previsio_de_la_contaminacio_atmosferica_xvpca/index.html">Air Pollution Prevention and Monitoring Network (XPVCA in Catalan)</a>
+        corresponding to hourly data of air pollutants from year 1991 to 2025. Data included: benzene (C<sub>6</sub>H<sub>6</sub>), carbon monoxide (CO), nitric oxide (NO), nitrogen dioxide (NO<sub>2</sub>), ozone (O<sub>3</sub>), sulfur dioxide (SO<sub>2</sub>)
       </li>
       <li>
-        Meteorological data is avaliable from <a></a> href="https://www.meteo.cat/observacions/xema" Meteocat XEMA (Meteorological data server of Catalonia) </a>, so we choose the nearest meteorological station that is Viladecans. The data structure is base on semi-houry data that is, data every 30 minutes from 2011. Data included: temperature, relative humidity, pressure, wind direction, wind speed, solar irradiance
+        Meteorological data is available from <a href="https://www.meteo.cat/observacions/xema"> Meteocat XEMA (Meteorological data server of Catalonia) </a>, 
+        so we choose the nearest meteorological station that is Vallirana. The data structure is based on semi-hourly data that is, data every 30 minutes from 2011. 
+        Data inclouded: temperature, relative humidity, pressure, wind direction, wind speed, solar irradiance
       </li>
-      <li>
-        Respiratori infection data are collected from SIVIC server
-      </li>
+<li>
+  Respiratory infection data are collected from the <a href="https://salutpublica.gencat.cat/ca/ambits/vigilancia/sivic/">Information System for Infection Surveillance in Catalonia (SIVIC)</a> using data from region 75, which is the Barcelona Metropolitan South region; 265 is the Primary Care Centre from Viladecans. 
+</li>
 
+      <!-- Sección detallada del estudio -->
+<section class="container py-4">
+
+  <!-- 1. Area of study -->
+  <h2 class="mb-3">1. Area of study</h2>
+
+  <p>
+    For this project, each group was assigned a different locality within Catalonia. 
+    Our group's study focuses on <b>(Viladecans)</b>, located in the 
+    Barcelona Metropolitan South area, region 75 of the SIVIC data.
+  </p>
+
+  <div class="row mb-4">
+    <div class="col-md-6">
+      <img src="viladecans mapa.png" class="img-fluid rounded shadow-sm">
+    </div>
+    <div class="col-md-6">
+      <img src="viladecans ubi.png" class="img-fluid rounded shadow-sm">
+    </div>
+  </div>
+
+  <p>
+Viladecans is a city with 67,536 inhabitants, located in the 
+    Baix Llobregat region and part of the Barcelona Metropolitan Area. Historically, Viladecans has faced limitations in its transportation infrastructure. Since the 1990s, significant improvements have been implemented: the construction of a nearby Renfe train station, the urbanization of its surroundings to enhance accessibility, the gradual expansion of the interurban bus network, and the creation of an urban bus system to facilitate internal mobility. Despite these advances, deficiencies remain, particularly in connections to the airport, El Prat de Llobregat, and certain areas of the city, as well as frequent congestion on the C-32 highway. These limitations highlight the need to expand the transportation network through metro lines and railways managed by the Generalitat of Catalonia, to ensure more efficient and sustainable mobility in Viladecans and its surrounding region.
+  </p>
+
+  <p>
+    Although recent measurements show that air quality in Viladecans is generally “good,” air pollution remains a health risk in the Barcelona metropolitan area. Pollutants such as fine particulate matter (PM2.5), ozone (O₃), and nitrogen dioxide (NO₂) can cause respiratory and cardiovascular problems and worsen conditions such as asthma, particularly among vulnerable populations.
+
+  </p>
+
+  <!-- 2. Data sources -->
+  <h2 class="mt-5 mb-3">2. Data sources</h2>
+
+  <ul>
+    <li>
+      <b>SIVIC (Health data):</b> The 
+      <a href="https://salutpublica.gencat.cat/ca/ambits/vigilancia/sivic/" target="_blank">
+      Information System for Infection Surveillance in Catalonia (SIVIC)
+      </a> 
+      is a surveillance system created by the Catalan Public Health Agency to monitor respiratory infections such as Covid‑19, influenza, bronchitis, and pneumonia. 
+      It integrates data collected from primary care centres, hospitals, laboratories and public health services, allowing real‑time analysis of acute respiratory infections to detect trends and provide early alerts.
+    </li>
+
+    <li>
+      <b>XEMA (Meteorological data):</b> The Automatic Weather Station Network managed by Meteocat consists of over 180 stations distributed across the region, continuously measuring atmospheric variables such as temperature, precipitation, wind, humidity, and pressure in real time. This network provides critical data for monitoring meteorological conditions and enhancing the accuracy of weather forecasting.
+
+    </li>
+
+    <li>
+      <b>XPVCA (Air pollution data):</b> Catalonia’s official air quality monitoring network is a system of stations that continuously measures atmospheric pollutants in real time. It provides essential data to analyze air quality trends and assess their impacts on environmental and public health.
+
+    </li>
+  </ul>
+
+  <!-- 3. Methodology -->
+  <h2 class="mt-5 mb-3">3. Methodology</h2>
+
+  <p>
+    To manipulate and analyze the downloaded data, we used <b>RStudio</b>, an 
+    integrated development environment for the R programming language focused on 
+    statistical computing and graphics.
+  </p>
+
+  <p>
+    We used libraries such as <b>Openair</b> and <b>Tidyverse</b> to clean, organize, 
+    and analyze the data, producing graphs and tables like the following:
+  </p>
+
+  <div class="row mb-4">
+    <div class="col-md-12">
+      <img src="archius.png" class="img-fluid rounded shadow-sm">
+    </div>
+  </div>
+
+  <div class="row mb-4">
+    <div class="col-md-4">
+      <img src="GRAFIC.png" class="img-fluid rounded shadow-sm">
+    </div>
+    <div class="col-md-4">
+      <img src="2 OÑO.png" class="img-fluid rounded shadow-sm">
+    </div>
+    <div class="col-md-4">
+      <img src="Calendari Viladecans-Atrium HD.png" class="img-fluid rounded shadow-sm">
+    </div>
+  </div>
+
+  <!-- 4. Results -->
+  <h2 class="mt-5 mb-3">4. Results</h2>
+
+  <ul>
+    <li>
+  <p><b>NO<sub>2</sub>:</b> Nitrogen dioxide (NO<sub>2</sub>) is regulated under European legislation, which establishes a maximum hourly concentration of 200 µg/m³, not to be exceeded more than 18 times per year. In the analyzed dataset, only daily limit exceedances were detected, totaling 8 events where NO<sub>2</sub> concentrations surpassed the regulatory threshold. In contrast, no exceedances were observed for either the hourly or annual limits, indicating that NO<sub>2</sub> levels at these temporal scales remained within the air quality standards defined by current regulations.</p>
+
+    </li>
+  </ul>
+
+  <!-- 5. Discussion -->
+  <h2 class="mt-5 mb-3">5. Discussion</h2>
+
+  <h5>Most influential pollutants</h5>
+  <p>
+The dataset includes four atmospheric pollutants: <strong>CO, NO₂, O₃, and SO₂</strong>. 
+However, exceedances of regulatory limits were observed <strong>only for ozone (O₃)</strong>. 
+No exceedances were recorded for <strong>carbon monoxide (CO), nitrogen dioxide (NO₂), or sulfur dioxide (SO₂)</strong> during the analyzed period.
+  </p>
+
+  <h5>Meteorological conditions affecting pollution</h5>
+  <p>
+    Solar radiation favors ozone formation, especially during midday. Wind helps 
+    disperse pollutants, while calm conditions favor accumulation. During winter, 
+    thermal inversions may trap pollutants near the ground, increasing NO<sub>2</sub>.
+  </p>
+
+  <h5>Seasonal patterns</h5>
+  <p>
+    NO<sub>2</sub> concentrations show two daily peaks coinciding with rush hours. 
+    Levels are usually higher on weekdays than weekends. Seasonally, NO<sub>2</sub> 
+    increases in winter, while ozone levels are higher in summer due to stronger 
+    solar radiation.
+  </p>
+
+  <h5>Public health implications</h5>
+  <p>
+    Even when legal limits are generally met, NO<sub>2</sub> exposure may still 
+    affect health. It is associated with respiratory irritation, asthma 
+    aggravation, and other respiratory problems, especially in vulnerable 
+    populations such as children, the elderly, and people with chronic diseases.
+  </p>
+
+</section>
+      
     </ul>
   </main>
-  
+        
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
   <script>
     // Mode clar/fosc amb canvi d'icona
